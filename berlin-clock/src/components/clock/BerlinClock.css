@@ -1,0 +1,59 @@
+.seconds {
+  width: 100px;
+  height: 100px;
+}
+
+.red-light {
+  background-color: red;
+}
+
+.seconds-off {
+  background-color: lightcoral;
+}
+
+.hours-container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.hours {
+  width: 90px;
+  height: 45px;
+  border: 2px solid black;
+}
+
+.single-hour-container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.hour {
+  width: 90px;
+  height: 45px;
+  border: 2px solid black;
+}
+
+.five-minute-container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+.five-minute {
+  width: 200px;
+  height: 45px;
+  border: 2px solid black;
+}
+
+.single-minute-container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.minute {
+    width: 90px;
+  height: 45px;
+  border: 2px solid black;
+}
