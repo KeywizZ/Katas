@@ -1,6 +1,18 @@
+.berlin {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
 .seconds {
   width: 100px;
   height: 100px;
+  border: 2px solid black;
+  border-radius: 100%;
+  margin-bottom: 5px;
 }
 
 .red-light {
@@ -8,52 +20,64 @@
 }
 
 .seconds-off {
-  background-color: lightcoral;
+  background-color: rgba(218, 50, 50, 0.062);
 }
 
 .hours-container {
   display: flex;
   flex-direction: row;
   width: 40%;
+  margin-bottom: 2px;
+  width: 100%;
+  justify-content: center;
 }
 
 .hours {
   width: 90px;
   height: 45px;
+  border-radius: 10%;
   border: 2px solid black;
 }
 
 .single-hour-container {
   display: flex;
   flex-direction: row;
-  width: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .hour {
   width: 90px;
   height: 45px;
+  border-radius: 10%;
   border: 2px solid black;
 }
 
 .five-minute-container {
   display: flex;
   flex-direction: row;
-  width: 40%;
+  width: 376px;
 }
 .five-minute {
   width: 200px;
   height: 45px;
   border: 2px solid black;
+  border-radius: 10%;
 }
 
 .single-minute-container {
   display: flex;
   flex-direction: row;
-  width: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .minute {
-    width: 90px;
+  border-radius: 10%;
+  width: 90px;
   height: 45px;
   border: 2px solid black;
 }

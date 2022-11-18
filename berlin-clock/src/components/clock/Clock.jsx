@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import BerlinClock from "./BerlinClock";
 
+import "./Clock.css";
+
 const Clock = () => {
   const [timeHour, setTimeHour] = useState(new Date().getHours());
   const [timeMinutes, setTimeMinutes] = useState(new Date().getMinutes());
@@ -22,7 +24,7 @@ const Clock = () => {
 
   return (
     <div className="clock">
-      <span>
+      <span className="clockTimer">
         {timeHour.toLocaleString("en-US", {
           minimumIntegerDigits: 2,
           useGrouping: false,
