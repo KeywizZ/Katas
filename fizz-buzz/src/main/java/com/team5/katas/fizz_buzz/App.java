@@ -65,6 +65,8 @@ public class App {
 		return false;
 	}
 
+	
+	// TODO: Terminara
 	public static String convertAI(int currentNumber) {
 		boolean check;
 	}
